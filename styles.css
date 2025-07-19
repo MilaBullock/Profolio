@@ -1,0 +1,82 @@
+/*  Navbar and text things */
+
+html {
+    font-family: Monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+h1 {
+    font-size: 2em;
+    margin: 0 20px;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    left: 100px;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;  
+    margin-top: 0;
+}
+
+.navbar li {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+img{
+    width: 400;
+    height: 500px;
+    margin: 0 20px;
+}
+
+p {
+
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: black;
+    align-items: right;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+}
+
+/* About me */
+.about-me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+/* Project */
+.projects{
+    margin-top:100px;
+}
+
+.projects ul {
+    font-size: 1.2em;
+    list-style-type: circle;
+    padding-left: 30x;
+}
+
+/* Involvment */
+/* Resume */
+/* Contact Me */
+
