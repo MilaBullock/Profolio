@@ -37,7 +37,6 @@ p {
 .navbar {
     background-color: black;
     color: red;
-
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -117,19 +116,43 @@ p {
 /* Project */
 .projects {
     margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
-
+.projects h1, ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .projects ul {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.2em;
-    list-style-type: circle;
+    list-style-type: none;
     padding-left: 30x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.projects p{
-    font-size: 1em;
-    line-height: 1.5;
+.projects li {
     margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
+.projects li:hover {
+    background-color: lightgray;
+}
+
+.projectname{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.2em;
     color: black;
     margin-left: 20px;
 }
