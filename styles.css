@@ -89,6 +89,7 @@ p {
 
 .right{
     display: flex;
+    flex-direction: row;
     gap: 20px;
     font-size: 1.4em;
     margin-right: 20px;
@@ -125,6 +126,7 @@ p {
     align-items: center;
    
 }
+
 .projects h1, ul{
     display: flex;
     flex-direction: column;
@@ -183,16 +185,35 @@ p {
 .involvment {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     margin-top: 20px;
 }
+.involvment h1 {
+    font-size: 5em;
+    text-decoration: bold;
+}
 
-.involvment ul {
-    list-style-type: none;
+.club {
+    font-size:2em
+}
+
+.mics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mics-text {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
 }
+
+.mics img{
+    width: 200px;
+    height: 200px;
+}
+
 
 /* Resume */
 /* Contact Me */
