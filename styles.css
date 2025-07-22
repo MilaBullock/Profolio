@@ -73,12 +73,14 @@ p {
 /*  left = name and star  right = links*/
 .left{
     display: flex;
-    align-items: center
+    flex-direction: row;
+    margin-left: 20px;
+  
 }
 
 .left h1{
     color: white;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .left img{
@@ -88,6 +90,8 @@ p {
 .right{
     display: flex;
     gap: 20px;
+    font-size: 1.4em;
+    margin-right: 20px;
 }
 
 
@@ -175,6 +179,21 @@ p {
 
 }
 /* Involvment */
+
+.involvment {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+}
+
+.involvment ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
 /* Resume */
 /* Contact Me */
 
